@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+*.env
+
+# Logs / databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Freqtrade local/generated data
+user_data/data/
+user_data/logs/
+hyperopt_results/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*_backup.py
+*.bak
